@@ -42,8 +42,10 @@ jobs:
           - fork_branch: zodb-6.0.x
             upstream_branch: stable/6.0.x
           # Add new entries here as new Django releases ship:
-          # - fork_branch: zodb-6.1.x
-          #   upstream_branch: stable/6.1.x
+          - fork_branch: zodb-6.1.x
+            upstream_branch: stable/6.1.x
+          # - fork_branch: zodb-6.2.x
+          #   upstream_branch: stable/6.2.x
 
     steps:
       - name: Set up Git identity
